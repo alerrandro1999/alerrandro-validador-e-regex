@@ -4,5 +4,6 @@ namespace Alerrandro\Regex\interface;
 
 interface iRegex
 {
-    public static function telefone(string $telephone): string;
+    public static function Regex(string $string): string;
+
 }
