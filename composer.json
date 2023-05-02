@@ -1,0 +1,17 @@
+{
+    "name": "alerrandro/regex",
+    "description": "Pacote com regex",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Alerrandro\\Regex\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "alerrandro borges",
+            "email": "alerrandrokaton@gmail.com"
+        }
+    ],
+    "require": {}
+}
