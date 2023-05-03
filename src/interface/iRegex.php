@@ -2,9 +2,9 @@
 
 namespace Alerrandro\Regex\Interface;
 
-interface iRegex
+interface IRegex
 {
-    public static function removeCaracteresEspeciais(string $string): string;
-    public static function removeLetras(string $string): string;
-    public static function removeNumeros(string $string): string;
+    public static function removerCaracteresEspeciais(string $string): string;
+    public static function removerLetras(string $string): string;
+    public static function removerNumeros(string $string): string;
 }
