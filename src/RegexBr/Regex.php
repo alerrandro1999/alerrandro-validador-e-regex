@@ -11,4 +11,8 @@ class Regex implements InterfaceIRegex
         return preg_replace("/([^\p{L}\p{N}]|\s+)/u", '', $string);
     }
 
+    public static function removeLetras(string $string): string
+    {
+        return preg_replace("/[\p{L}]/", '', $string);
+    }
 }
