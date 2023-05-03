@@ -20,4 +20,9 @@ class Regex implements InterfaceIRegex
     {
         return preg_replace("/\p{N}/", '', $string);
     }
+
+    public static function removerLetrasECaracteresEspeciais(string $string): string
+    {
+        return preg_replace("/([^\p{N}]|\s+)/", '', $string);
+    }
 }
