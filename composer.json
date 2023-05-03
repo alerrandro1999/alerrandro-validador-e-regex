@@ -1,5 +1,5 @@
 {
-    "name": "alerrandro/regex",
+    "name": "alerrandro/validadores",
     "description": "Pacote com regex",
     "type": "library",
     "autoload": {
