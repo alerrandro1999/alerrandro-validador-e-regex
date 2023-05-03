@@ -15,4 +15,9 @@ class Regex implements InterfaceIRegex
     {
         return preg_replace("/[\p{L}]/", '', $string);
     }
+
+    public static function removeNumeros(string $string): string
+    {
+        return preg_replace("/\p{N}/", '', $string);
+    }
 }
