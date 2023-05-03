@@ -6,7 +6,7 @@ use Alerrandro\Regex\interface\iRegex as InterfaceIRegex;
 
 class Regex implements InterfaceIRegex
 {
-    public static function regex(string $string): string
+    public static function removeCaracteresEspeciais(string $string): string
     {
         return preg_replace("/([^\p{L}\p{N}]|\s+)/u", '', $string);
     }

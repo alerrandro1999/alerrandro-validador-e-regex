@@ -4,6 +4,6 @@ namespace Alerrandro\Regex\Interface;
 
 interface iRegex
 {
-    public static function Regex(string $string): string;
+    public static function removeCaracteresEspeciais(string $string): string;
 
 }
