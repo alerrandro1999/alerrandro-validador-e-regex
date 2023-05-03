@@ -1,6 +1,6 @@
 {
-    "name": "alerrandro/validadores",
-    "description": "Pacote com regex",
+    "name": "alerrandro/validador-e-regex",
+    "description": "Pacote com validador CPF/CNPJ e alguns regex",
     "type": "library",
     "autoload": {
         "psr-4": {
