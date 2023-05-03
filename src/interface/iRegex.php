@@ -1,6 +1,6 @@
 <?php
 
-namespace Alerrandro\Regex\interface;
+namespace Alerrandro\Regex\Interface;
 
 interface iRegex
 {
